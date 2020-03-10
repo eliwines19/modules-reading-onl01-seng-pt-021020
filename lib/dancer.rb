@@ -1,7 +1,7 @@
 require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
 
-class Dacncer
+class Dancer
   include Dance
 
   attr_accessor :name
@@ -9,5 +9,5 @@ class Dacncer
   def initalize(name)
     @name = name
   end
-  
+
 end
